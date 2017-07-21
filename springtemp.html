@@ -1,0 +1,285 @@
+<!doctype html>
+
+<html>
+<head>
+<style type="text/css">
+
+   body {margin:0px;padding:0px;}
+
+  #first {border:none;
+  
+          width:100%;
+		  height:4px;
+          background-color:rgba(28,27,27,0.8); 
+         		  }
+		  
+    #second {width:100%;
+	         
+			 background-color:rgb(59, 89, 152);
+			 border-bottom-style:solid;
+			 border-bottom-color:rgb(19, 55, 131);
+			 border-bottom-width:1px;
+              
+			 height:82px;
+			 margin:0px;
+			 }
+             
+			 
+		 
+	#third {position:relative;
+	         top:23px;
+             left:110px;
+			 font-size:38px;
+			 font-weight:normal;
+			 color:white;
+			 width:250px;
+			 font-weight:bolder;
+			 }
+			 
+	#login {position:relative;
+	left:750px;
+	top:-35px;
+	color:white;
+	height: 70px;
+    width: 290px
+	}
+	
+	#pass {position:relative;
+	      top: -39.8px;
+    left:200px;
+	color:white;
+	margin-left: 2px;
+	width:200px;
+	}
+	
+	#fpass {    font-size: 15px;
+    color: #9cb4d8;
+	width:200px;
+	}
+	
+	#fourth {width:100%;
+	
+	margin:0px;
+	height:613px;
+	background-color:#fbfafa;}
+	
+	
+	#signform {position:relative;
+	left:718px;
+	top:0px;
+	width:400px;
+	height:600px;
+	
+	}
+	
+	#header {font-weight:bolder;
+	font-size:35px;
+	width:350px;
+	}
+	
+	.mini {font-size:19px;
+	width:290px;
+	font-weight:bolder;
+	}
+	
+	td {padding-top:6px;
+	   padding-bottom:6px;
+	   padding-right:6px;
+	   width:250px;}
+	   
+	   .box3 input[type=text] {border-radius:6px;
+	                              width:230px;
+								  height:34px;
+								  border:#5b6eaf 1.5px groove;
+								      font-weight:normal;
+                                     font-size: 21px;
+                                     padding-left: 6px;
+                                     color: #3a3333;}
+	
+	
+
+         .box4 input[type=text]  {border-radius:6px;
+	                              width:486px;
+								  height:34px;
+								  border:#5b6eaf 1.5px groove;
+								      font-weight:normal;
+                                     font-size: 21px;
+                                     padding-left: 6px;
+                                     color: #3a3333;}
+	
+	select {height:28px;}
+	
+	#que {font-size:15px;
+	position:relative;
+	    left: 213px;
+    top: -30px;
+	width:200px;}
+	
+	#lecture {width:309px;
+	color:grey;
+	font-size:14px;
+	position: relative;}
+	
+	#create input[type=button] {height:35px;
+	background-color:#4ca94c;
+	border:black 1px groove;
+	width:210px;
+	border-radius:6px;
+	font-size:21px;
+	color:white;
+	font-weight:bold;
+	position: relative;
+	   background-image:-webkit-linear-gradient (top,#79bc64,#578843);
+	}
+	
+	#create input[type=button]:hover {background-color:#24d269;
+	border:black 1px groove;
+	border-radius:6px;}
+	
+	
+
+	#pic {position:absolute;
+	top:220px;
+	left:100px;
+	display:block;
+	width:490px;}
+	
+	#fimage {
+	width:500px;}
+	
+	#iamin {position:relative;
+	top: -37.9px;
+    left: 180px;
+	width:80px;}
+	
+	#iamin input[type=button] {    background-color:#6060d4;
+    border: black 1px groove;
+    color: white;
+    background-image:-webkit-linear-gradient (top,#79bc64,#578843);
+    font-weight: 700;
+	}
+	
+	#iamin input[type=button]:hover {background-color:#1c1c88;
+	}
+		#end {width:1100px;
+	height:160px;
+	position:relative;
+	left:80px;}
+	
+	#endtable table {font-size:15px;
+	width:970px;}
+	
+
+	#center {position:absolute;
+	top:170px;
+	left:200px;
+	font-size:35px;
+	font-weight:bold;}
+	
+	#finish {color:purple;}
+	
+</style>
+
+</head>
+
+<body>
+<div id="first"></div>
+<div id="second">
+<div id="third">
+spring fest
+</div>
+<div id="login">
+Email or Phone<br />
+<div id="box1"><input type="text" name="email" /></div>
+<div id="pass">
+Password<br />
+<div id="box2"><input type="text" name="password"/></div>
+<div id="fpass">Forgotten account?</div>
+<div id="iamin"><input type="button" class="logmein" value="Log In" /></div>
+</div>
+
+</div>
+</div>
+
+<div id="fourth">
+<div id="fimage">
+<div id="center">Second Assignment... </div>
+
+<div id="pic">
+<img src="fb.png"/>
+</div>
+</div>
+<div id="signform">
+<br />
+<div id="header">Create an account</div><br />
+<div class="mini">It's free and always will be</div>
+<br />
+<form>
+<table>
+<tr><td><div class="box3"><input type="text" name="fname" placeholder="First Name"></div></td><td><div class="box3"><input type="text" name="lname"placeholder="Surname"></div></td></tr>
+<tr><td colspan="2"><div class="box4"><input type="text" name="phone"placeholder="E-mail Id or Phone Number"></div></td></tr>
+<tr><td colspan="2"><div class="box4"><input type="text" name="npass"placeholder="New Password"></div></td></tr>
+<tr></tr>
+</table>
+</form>
+<br />
+<div class="mini">Birthday</div>
+<div id="date">
+
+<select id="dob1">
+<option valye="zero">Day</option>
+<option value="one">1-10</option>
+<option value="two">11-20</option>
+<option value="three">21-31</option>
+</select>
+
+<select id="dob2">
+<option value="nomon">Month</option>
+<option value="jan">Jan-April</option>
+<option value="MAY">May-Aug</option>
+<option value="sep">Sep-Dec</option>
+</select>
+
+<select id="dob3">
+<option value="noyear">Year</option>
+<option value="before"><2000</option>
+<option value="after">>2000</option>
+</select>
+</div>
+<div id="que">why do I need to provide my <br />date of birth?</div>
+<div id="gender">
+<input type="radio" name="human" value="male" />  MALE&nbsp; &nbsp;<input type="radio" name="human" value="male" />  FEMALE
+</div>
+<br />
+<div id="lecture">
+By clicking Create an account, you agree to our Terms and confirm that you have read our Data Policy, including our Cookie Use Policy. You may receive SMS message notifications from Facebook and can opt out at any time.
+</div><br />
+<div id="create"><input type="button" class="final" value="Create an account" /></div>
+<br /><br />
+<div id="endcreate"><a href="">Create a Page</a>  for a celebrity,band or business.</div>
+</div>
+</div>
+<br/>
+<div id="end">English (UK)&nbsp; &nbsp;  मराठी&nbsp; &nbsp; हिन्दी  &nbsp; &nbsp;  اردو   &nbsp; &nbsp; ગુજરાતી  &nbsp; &nbsp;    ಕನ್ನಡਪੰਜਾਬੀ  &nbsp; &nbsp; &nbsp;   தமிழ்   &nbsp;  &nbsp; বাংলা   &nbsp;      &nbsp;తెలుగు &nbsp;&nbsp;          മലയാളം
+<input type="button" id="plus" value="+" />
+<hr>
+<div id="endtable">
+<table>
+<tr>
+<td>Sign Up</td><td>Log In</td><td>Messenger</td><td>Facebook Lite</td><td>Mobile</td><td>Find Friends</td><td>People</td><td>Pages</td><td>Places</td><td>Games</td><td>Locations</td>
+</tr>
+<tr>
+<td>Celebrities</td><td>MarketPlace</td><td>Groups</td><td>Recipes</td><td>Moments</td><td>Instagram</td><td>About</td><td>Create Advert</td><td>Create Page</td><td>Developers</td><td>Careers</td>
+</tr>
+<tr>
+<td>Privacy</td><td>Cookies</td><td>AdChoices</td><td>Terms</td><td>Help</td>
+</tr>
+</table>
+</div>
+<br /><br />
+<div id="finish">Copyright @ Saurav S. Kumar(kumarsaurav920@yahoo.com)
+</div>
+<br /><br />
+</div>
+</body>
+</html>
